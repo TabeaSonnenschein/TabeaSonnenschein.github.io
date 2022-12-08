@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
-    "intro": "",
+    "intro": "Play with the Graph by clickling on Nodes.",
     "title": "Evidence Graph on Modal Choice and Behavior Determinants"
   },
   "legend": {
