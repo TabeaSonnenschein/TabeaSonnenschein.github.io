@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "mode",
+    "groupSelectorAttribute": "Type",
     "hoverBehavior": "default"
   },
   "informationPanel": {
@@ -36,7 +36,7 @@
       "labelThreshold": 0,
       "labelSize": "proportional",
       "labelSizeRatio": 6,
-      "defaultLabelSize": 16, 
+      "defaultLabelSize": 16,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold"
