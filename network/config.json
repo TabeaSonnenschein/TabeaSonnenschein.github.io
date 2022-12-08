@@ -38,7 +38,8 @@
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "labelsize": "proportional",
-      "labelSizeRatio": 3
+      "labelSizeRatio": 3,
+      "defaultLabelSize": 16
     },
     "graphProperties": {
       "maxEdgeSize": 10,
