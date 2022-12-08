@@ -34,11 +34,12 @@
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
       "labelThreshold": 0,
+      "labelSize": "proportional",
+      "labelSizeRatio": 6,
+      "defaultLabelSize": 16, 
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
-      "hoverFontStyle": "bold",
-      "labelSize": "proportional",
-      "labelSizeRatio": 6
+      "hoverFontStyle": "bold"
     },
     "graphProperties": {
       "maxEdgeSize": 20,
