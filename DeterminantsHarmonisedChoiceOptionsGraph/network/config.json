@@ -8,8 +8,8 @@
     "text": "Tabea"
   },
   "text": {
-    "more": "",
-    "intro": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
+    "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
+    "intro": "",
     "title": "javascriptexamplegraph2"
   },
   "legend": {
@@ -19,12 +19,12 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "mode",
+    "groupSelectorAttribute": "color",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "Label"
+    "imageAttribute": "Interval"
   },
   "sigma": {
     "drawingProperties": {
