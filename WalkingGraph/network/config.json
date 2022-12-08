@@ -5,17 +5,17 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Tabea"
+    "text": "Tabea Sonnenschein"
   },
   "text": {
-    "more": "",
-    "intro": "here is a descriptopms",
-    "title": "javascriptexamplegraph2"
+    "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
+    "intro": "Play with the Graph by clickling on Nodes.",
+    "title": "Evidence Graph on Walking Behavior Determinants and Studygroups"
   },
   "legend": {
-    "edgeLabel": "Relationship",
-    "colorLabel": "Significance",
-    "nodeLabel": "EvidenceInfo"
+    "edgeLabel": "Observed Statistical Relationship",
+    "colorLabel": "Green \u003d Significant; Red \u003d Insignificant",
+    "nodeLabel": "Left \u003d Behavior Choice Options (walking subset); Middle \u003d Behavior Determinants; Right \u003d Studygroups"
   },
   "features": {
     "search": true,
@@ -33,15 +33,15 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 0,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 16
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 4,
+      "minEdgeSize": 2,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
