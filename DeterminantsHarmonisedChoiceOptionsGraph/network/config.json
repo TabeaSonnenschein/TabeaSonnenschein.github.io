@@ -5,12 +5,12 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Tabea"
+    "text": "Tabea Sonnenschein"
   },
   "text": {
     "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
     "intro": "",
-    "title": "javascriptexamplegraph2"
+    "title": "Evidence Graph on Modal Choice and Behavior Determinants"
   },
   "legend": {
     "edgeLabel": "Observed Statistical Relationship",
@@ -20,7 +20,7 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": "mode",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
