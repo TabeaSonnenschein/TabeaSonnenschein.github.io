@@ -38,11 +38,11 @@
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "labelSize": "proportional",
-      "labelSizeRatio": 4
+      "labelSizeRatio": 6
     },
     "graphProperties": {
       "maxEdgeSize": 20,
-      "minEdgeSize": 0.4,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
