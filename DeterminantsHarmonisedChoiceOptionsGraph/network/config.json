@@ -13,7 +13,7 @@
     "title": "Evidence Graph on Modal Choice and Behavior Determinants"
   },
   "legend": {
-    "edgeLabel": "Observed Statistical Relationship",
+    "edgeLabel": "Observed Statistical Relationship (the ticker the more evidence)",
     "colorLabel": "Green \u003d Significant; Red \u003d Insignificant",
     "nodeLabel": "Outer Circle \u003d Behavior Determinants; Inner Circle \u003d Behavior Choice Options"
   },
