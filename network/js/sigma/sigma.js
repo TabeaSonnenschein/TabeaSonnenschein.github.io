@@ -1389,4 +1389,8 @@ sigma.classes.EventDispatcher = function () {
         return "0123456789ABCDEF".charAt((b - b % 16) / 16) + "0123456789ABCDEF".charAt(b % 16)
     };
     sigma.publicPrototype = s.prototype
+    insta.bind('clickNode', function (e) {
+        var url = e.data.node.urlField;
+        goToSomeUrl(url)
+    });
 })();
