@@ -1,4 +1,7 @@
 var sigInst, canvas, $GP
+const linkify = require('linkifyjs');
+const linkifyHtml = require('linkify-html');
+const options = { defaultProtocol: 'https' };
 
 //Load configuration file
 var config={};
@@ -52,7 +55,7 @@ function initSigma(config) {
 	else
 		drawProps={
         defaultLabelColor: "#000",
-        defaultLabelSize: 14,
+        defaultLabelSize: 20,
         defaultLabelBGColor: "#ddd",
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
@@ -567,7 +570,7 @@ function nodeActive(a) {
                 h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
 			}
             //temp_array.push(f.attributes[g].attr);
-            e.push(h)
+            e.push(linkifyHtml(h))
         }
 
         if (image_attribute) {
