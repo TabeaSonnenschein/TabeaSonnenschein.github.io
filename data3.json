@@ -241,7 +241,7 @@
       "id": "1",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1016/j.buildenv.2019.106455', 'https://doi.org/10.1136/bmjopen-2020-047062', 'https://doi.org/10.1186/s12966-017-0471-5', 'https://doi.org/10.1186/s12966-017-0613-9', 'https://doi.org/10.3389/fspor.2020.590857', 'https://doi.org/10.7416/ai.2021.2409'"
+        "DOIs": "https://doi.org/10.1016/j.buildenv.2019.106455, https://doi.org/10.1136/bmjopen-2020-047062, https://doi.org/10.1186/s12966-017-0471-5, https://doi.org/10.1186/s12966-017-0613-9, https://doi.org/10.3389/fspor.2020.590857, https://doi.org/10.7416/ai.2021.2409"
       },
       "color": "rgb(157,122,255)",
       "size": 30.63583755493164
@@ -911,7 +911,7 @@
       "id": "0",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1007/s11116-015-9661-7'"
+        "DOIs": "https://doi.org/10.1007/s11116-015-9661-7"
       },
       "color": "rgb(157,122,255)",
       "size": 20.0
@@ -977,7 +977,7 @@
       "id": "5",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1016/j.ypmed.2017.11.018','https://doi.org/10.1186/1479-5868-8-39', 'https://doi.org/10.1186/s12889-017-5005-1', 'https://doi.org/10.1186/s12966-020-01035-1'"
+        "DOIs": "https://doi.org/10.1016/j.ypmed.2017.11.018,https://doi.org/10.1186/1479-5868-8-39, https://doi.org/10.1186/s12889-017-5005-1, https://doi.org/10.1186/s12966-020-01035-1"
       },
       "color": "rgb(157,122,255)",
       "size": 26.473987579345703
@@ -1889,7 +1889,7 @@
       "id": "6",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1080/01441647.2017.1285819', 'https://doi.org/10.1080/01441647.2017.1354942', 'https://doi.org/10.1080/01944361003766766', 'https://doi.org/10.1093/abm/kax043', 'https://doi.org/10.1177/0885412218802467'"
+        "DOIs": "https://doi.org/10.1080/01441647.2017.1285819, https://doi.org/10.1080/01441647.2017.1354942, https://doi.org/10.1080/01944361003766766, https://doi.org/10.1093/abm/kax043, https://doi.org/10.1177/0885412218802467"
       },
       "color": "rgb(157,122,255)",
       "size": 24.161849975585938
@@ -2063,7 +2063,7 @@
       "id": "7",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1080/01441647.2019.1590477', 'https://doi.org/10.1136/bjsports-2017-098833', 'https://doi.org/10.1186/s12199-020-00915-z', 'https://doi.org/10.1186/s12966-017-0471-5', 'https://doi.org/10.1186/s12966-017-0613-9''"
+        "DOIs": "https://doi.org/10.1080/01441647.2019.1590477, https://doi.org/10.1136/bjsports-2017-098833, https://doi.org/10.1186/s12199-020-00915-z, https://doi.org/10.1186/s12966-017-0471-5, https://doi.org/10.1186/s12966-017-0613-9"
       },
       "color": "rgb(157,122,255)",
       "size": 24.393062591552734
@@ -2102,7 +2102,7 @@
       "id": "3",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1016/j.healthplace.2020.102337', 'https://doi.org/10.1016/j.jth.2016.03.002', 'https://doi.org/10.1016/j.jtrangeo.2017.04.004', 'https://doi.org/10.1080/01441647.2017.1365101', 'https://doi.org/10.1080/01944361003766766', 'https://doi.org/10.1093/abm/kax043', 'https://doi.org/10.1136/bjsports-2017-098833', 'https://doi.org/10.1186/1479-5868-8-39', 'https://doi.org/10.1186/s12199-020-00915-z', 'https://doi.org/10.1186/s12966-017-0471-5', 'https://doi.org/10.3390/su11123253', 'https://doi.org/10.7416/ai.2021.2409'"
+        "DOIs": "https://doi.org/10.1016/j.healthplace.2020.102337, https://doi.org/10.1016/j.jth.2016.03.002, https://doi.org/10.1016/j.jtrangeo.2017.04.004, https://doi.org/10.1080/01441647.2017.1365101, https://doi.org/10.1080/01944361003766766, https://doi.org/10.1093/abm/kax043, https://doi.org/10.1136/bjsports-2017-098833, https://doi.org/10.1186/1479-5868-8-39, https://doi.org/10.1186/s12199-020-00915-z, https://doi.org/10.1186/s12966-017-0471-5, https://doi.org/10.3390/su11123253, https://doi.org/10.7416/ai.2021.2409"
       },
       "color": "rgb(157,122,255)",
       "size": 60.0
@@ -2321,7 +2321,7 @@
       "id": "4",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1016/j.jtrangeo.2017.04.004'"
+        "DOIs": "https://doi.org/10.1016/j.jtrangeo.2017.04.004"
       },
       "color": "rgb(157,122,255)",
       "size": 24.624277114868164
@@ -2909,7 +2909,7 @@
       "id": "2",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1016/j.healthplace.2018.08.002', 'https://doi.org/10.1016/j.healthplace.2020.102337', 'https://doi.org/10.1093/abm/kax043', 'https://doi.org/10.1136/bjsports-2017-098833', 'https://doi.org/10.1186/s12199-020-00915-z', 'https://doi.org/10.1186/s12966-017-0613-9'"
+        "DOIs": "https://doi.org/10.1016/j.healthplace.2018.08.002, https://doi.org/10.1016/j.healthplace.2020.102337, https://doi.org/10.1093/abm/kax043, https://doi.org/10.1136/bjsports-2017-098833, https://doi.org/10.1186/s12199-020-00915-z, https://doi.org/10.1186/s12966-017-0613-9"
       },
       "color": "rgb(157,122,255)",
       "size": 37.109825134277344
@@ -3236,7 +3236,7 @@
       "id": "8",
       "attributes": {
         "Type": "Behavior Choice Option",
-        "DOIs": "'https://doi.org/10.1080/01441647.2020.1806941', 'https://doi.org/10.1080/01944361003766766', 'https://doi.org/10.1177/0885412218802467'"
+        "DOIs": "https://doi.org/10.1080/01441647.2020.1806941, https://doi.org/10.1080/01944361003766766, https://doi.org/10.1177/0885412218802467"
       },
       "color": "rgb(157,122,255)",
       "size": 23.699420928955078
