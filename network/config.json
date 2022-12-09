@@ -37,13 +37,13 @@
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "labelFont": "Congenial",
-      "labelSize": "proportional",
-      "labelSizeRatio": 6,
+      "labelSize": "fixed",
+      "defaultLabelSize": 16,
       "labelThreshold": 0
     },
     "graphProperties": {
       "maxEdgeSize": 20,
-      "minEdgeSize": 0.2,
+      "minEdgeSize": 0.1,
       "minNodeSize": 1,
       "maxNodeSize": 10
     },
