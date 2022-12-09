@@ -1,6 +1,4 @@
 var sigInst, canvas, $GP
-const linkify = require('linkifyjs');
-const linkifyHtml = require('linkify-html');
 const options = { defaultProtocol: 'https' };
 
 //Load configuration file
