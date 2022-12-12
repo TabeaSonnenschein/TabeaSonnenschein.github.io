@@ -36,14 +36,14 @@
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "font": "Congenial",
-      "labelSize": "fixed",
-      "defaultLabelSize": 20,
+      "labelFont": "Congenial",
+      "labelSize": "proportional",
+      "labelSizeRatio": 6,
       "labelThreshold": 0
     },
     "graphProperties": {
-      "maxEdgeSize": 30,
-      "minEdgeSize": 0.05,
+      "maxEdgeSize": 20,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 10
     },

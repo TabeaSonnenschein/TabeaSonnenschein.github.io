@@ -1,5 +1,4 @@
 var sigInst, canvas, $GP
-const options = { defaultProtocol: 'https' };
 
 //Load configuration file
 var config={};
@@ -53,7 +52,7 @@ function initSigma(config) {
 	else
 		drawProps={
         defaultLabelColor: "#000",
-        defaultLabelSize: 20,
+        defaultLabelSize: 14,
         defaultLabelBGColor: "#ddd",
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
@@ -568,7 +567,7 @@ function nodeActive(a) {
                 h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
 			}
             //temp_array.push(f.attributes[g].attr);
-            e.push(linkifyHtml(h))
+            e.push(h)
         }
 
         if (image_attribute) {
