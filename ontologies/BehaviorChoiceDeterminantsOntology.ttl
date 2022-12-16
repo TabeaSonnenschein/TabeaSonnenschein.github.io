@@ -138,7 +138,7 @@
 
 ###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#regardsChoiceOption
 :regardsChoiceOption rdf:type owl:ObjectProperty ;
-                     owl:inverseOf :studiedChoiceOptions ;
+                     owl:inverseOf :studiedChoiceOption ;
                      rdfs:domain :EvidenceInstance ;
                      rdfs:range :BehaviorChoiceOption .
 
@@ -150,11 +150,11 @@
                     rdfs:range :BehaviorDeterminant .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedChoiceOptions
-:studiedChoiceOptions rdf:type owl:ObjectProperty ,
-                               owl:TransitiveProperty ;
-                      rdfs:domain :BehaviorChoiceOption ;
-                      rdfs:range :EvidenceInstance .
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedChoiceOption
+:studiedChoiceOption rdf:type owl:ObjectProperty ,
+                              owl:TransitiveProperty ;
+                     rdfs:domain :BehaviorChoiceOption ;
+                     rdfs:range :EvidenceInstance .
 
 
 ###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedDeterminant
@@ -165,6 +165,7 @@
 
 ###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesDeterminant
 :studiesDeterminant rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
                     rdfs:domain :Study ;
                     rdfs:range :BehaviorDeterminant .
 
