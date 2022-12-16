@@ -13,7 +13,7 @@
 #    Object Properties
 #################################################################
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#determinantStudiedIn
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn
 :determinantStudiedIn rdf:type owl:ObjectProperty ;
                       owl:inverseOf :studiesDeterminant ;
                       rdfs:domain :BehaviorDeterminant ;
@@ -21,28 +21,28 @@
                       rdfs:comment "determinantStudiedIn links the behavior determinant that was analysed in a specific evidence instance directly to the study that analysed it. It is the inverse of studiesDeterminant." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsConsistency
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsConsistency
 :findsConsistency rdf:type owl:ObjectProperty ;
                   owl:inverseOf :foundConsistentBy ;
                   rdfs:domain :Study ;
                   rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsCorrelation
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation
 :findsCorrelation rdf:type owl:ObjectProperty ;
                   owl:inverseOf :foundCorrelatedBy ;
                   rdfs:domain :Study ;
                   rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsInconsistency
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInconsistency
 :findsInconsistency rdf:type owl:ObjectProperty ;
                     owl:inverseOf :foundInconsistentBy ;
                     rdfs:domain :Study ;
                     rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsInsignificance
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance
 :findsInsignificance rdf:type owl:ObjectProperty ;
                      owl:inverseOf :foundInsignificantBy ;
                      rdfs:domain :Study ;
@@ -50,7 +50,7 @@
                      owl:propertyDisjointWith :findsSignificance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsNegativeAssociation
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation
 :findsNegativeAssociation rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf :findsSignificance ;
                           owl:inverseOf :negativeAssociationFoundBy ;
@@ -59,7 +59,7 @@
                           owl:propertyDisjointWith :findsPositiveAssociation .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsPositiveAssociation
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation
 :findsPositiveAssociation rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf :findsSignificance ;
                           owl:inverseOf :positiveAssociationFoundBy ;
@@ -67,7 +67,7 @@
                           rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsSignificance
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance
 :findsSignificance rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :findsCorrelation ;
                    owl:inverseOf :foundSignificantBy ;
@@ -75,53 +75,53 @@
                    rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundConsistentBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundConsistentBy
 :foundConsistentBy rdf:type owl:ObjectProperty ;
                    rdfs:domain :EvidenceInstance ;
                    rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundCorrelatedBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy
 :foundCorrelatedBy rdf:type owl:ObjectProperty ;
                    rdfs:domain :EvidenceInstance ;
                    rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundInconsistentBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInconsistentBy
 :foundInconsistentBy rdf:type owl:ObjectProperty ;
                      rdfs:domain :EvidenceInstance ;
                      rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundInsignificantBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy
 :foundInsignificantBy rdf:type owl:ObjectProperty ;
                       rdfs:domain :EvidenceInstance ;
                       rdfs:range :Study ;
                       owl:propertyDisjointWith :foundSignificantBy .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundSignificantBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy
 :foundSignificantBy rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf :foundCorrelatedBy ;
                     rdfs:domain :EvidenceInstance ;
                     rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#groupStudiedIn
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#groupStudiedIn
 :groupStudiedIn rdf:type owl:ObjectProperty ;
                 owl:inverseOf :studiesGroup ;
                 rdfs:domain :IndividualProperty ;
                 rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#moderatorIn
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#moderatorIn
 :moderatorIn rdf:type owl:ObjectProperty ;
              owl:inverseOf :studiesModerator ;
              rdfs:domain :BehaviorModerator ;
              rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#negativeAssociationFoundBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy
 :negativeAssociationFoundBy rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf :foundSignificantBy ;
                             rdfs:domain :EvidenceInstance ;
@@ -129,54 +129,54 @@
                             owl:propertyDisjointWith :positiveAssociationFoundBy .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#positiveAssociationFoundBy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy
 :positiveAssociationFoundBy rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf :foundSignificantBy ;
                             rdfs:domain :EvidenceInstance ;
                             rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#regardsChoiceOption
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsChoiceOption
 :regardsChoiceOption rdf:type owl:ObjectProperty ;
                      owl:inverseOf :studiedChoiceOption ;
                      rdfs:domain :EvidenceInstance ;
                      rdfs:range :BehaviorChoiceOption .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#regardsDeterminant
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsDeterminant
 :regardsDeterminant rdf:type owl:ObjectProperty ;
                     owl:inverseOf :studiedDeterminant ;
                     rdfs:domain :EvidenceInstance ;
                     rdfs:range :BehaviorDeterminant .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedChoiceOption
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption
 :studiedChoiceOption rdf:type owl:ObjectProperty ,
                               owl:TransitiveProperty ;
                      rdfs:domain :BehaviorChoiceOption ;
                      rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedDeterminant
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedDeterminant
 :studiedDeterminant rdf:type owl:ObjectProperty ;
                     rdfs:domain :BehaviorDeterminant ;
                     rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesDeterminant
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant
 :studiesDeterminant rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf owl:topObjectProperty ;
                     rdfs:domain :Study ;
                     rdfs:range :BehaviorDeterminant .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesGroup
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesGroup
 :studiesGroup rdf:type owl:ObjectProperty ;
               rdfs:domain :EvidenceInstance ;
               rdfs:range :IndividualProperty .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesModerator
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesModerator
 :studiesModerator rdf:type owl:ObjectProperty ;
                   rdfs:domain :EvidenceInstance ;
                   rdfs:range :BehaviorModerator .
@@ -186,102 +186,95 @@
 #    Data properties
 #################################################################
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#EvidenceInstanceProperties
-:EvidenceInstanceProperties rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :EvidenceInstance .
-
-
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FullSentenceString
-:FullSentenceString rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf :EvidenceInstanceProperties ;
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#fullSentenceString
+:fullSentenceString rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :EvidenceInstance ;
                     rdfs:range xsd:string .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#HasCitation
-:HasCitation rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :StudyProperties ;
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasCitation
+:hasCitation rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain :Study ;
              rdfs:range xsd:string .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#HasJournal
-:HasJournal rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :StudyProperties ;
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasJournal
+:hasJournal rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain :Study ;
             rdfs:range xsd:string .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#HasStudyYear
-:HasStudyYear rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf :StudyProperties ;
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasStudyYear
+:hasStudyYear rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :Study ;
               rdfs:range xsd:int .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#HasTitle
-:HasTitle rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :StudyProperties ;
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:domain :Study ;
           rdfs:range xsd:string .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#SentenceNumber
-:SentenceNumber rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf :EvidenceInstanceProperties .
-
-
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudyProperties
-:StudyProperties rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Study .
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#sentenceNumber
+:sentenceNumber rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :EvidenceInstance ;
+                rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#BehaviorChoiceOption
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorChoiceOption
 :BehaviorChoiceOption rdf:type owl:Class ;
                       rdfs:comment "Behavior Choice Options are kinds of activities from which an individual can choose for the specified behavioral choice. They are the values of the dependent variables in the explanatory studies from which knowledge is extracted. (e.g walking, biking for modal choice)." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#BehaviorDeterminant
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant
 :BehaviorDeterminant rdf:type owl:Class ;
                      rdfs:comment "Behavior Determinants are factors and constraints that influence a behavioral decision of an individual. These are the determinants or independent variables in the evidence provided. (e.g. pedestrian pathway width, gasoline price)." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#BehaviorModerator
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorModerator
 :BehaviorModerator rdf:type owl:Class ;
                    rdfs:comment "BehaviorModerators are variables that moderate the relationship between a behavior determinant and behavior choice option. (e.g. household income as a moderator of the importance of gasoline prices for choosing the car as a mode of transport)" .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#EvidenceInstance
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance
 :EvidenceInstance rdf:type owl:Class ;
                   rdfs:comment "EvidenceInstance is an instance in which a scientific article provided evidenc, which describes a statistical association between a particular behavior choice option and a behavior determinant using some study group or moderation effect." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#IndividualProperty
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#IndividualProperty
 :IndividualProperty rdf:type owl:Class ;
                     rdfs:comment "IndividualProperties are properties of the individual that define the Study Group, i.e. the specific population group or sample used in analysis. (e.g. elderly, females)" .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#MetaAnalysis
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#MetaAnalysis
 :MetaAnalysis rdf:type owl:Class ;
               rdfs:subClassOf :ReviewStudy ;
               rdfs:comment "MetaAnalysis are published scientific articles that conduct a meta analysis." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#ReviewStudy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy
 :ReviewStudy rdf:type owl:Class ;
              rdfs:subClassOf :Study ;
              rdfs:comment "ReviewStudies are scientific articles that conduct a review of scientific evidence." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#Study
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study
 :Study rdf:type owl:Class ;
        rdfs:comment "Studies are published scientific articles, which is the source from which the evidence has been extracted." .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#SystematicReviewStudy
+###  http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#SystematicReviewStudy
 :SystematicReviewStudy rdf:type owl:Class ;
                        rdfs:subClassOf :ReviewStudy ;
                        rdfs:comment "SystematicReviewStudies are published scientific articles that conduct a systematic review." .

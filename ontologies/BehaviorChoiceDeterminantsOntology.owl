@@ -17,543 +17,541 @@
         <Literal>The upperlevel ontology is the BehaviorChoiceDeterminantsOntology, developed by T. Sonnenschein, G. Ardine de Wit, N. R. den Braver, R. Vermeulen and S. Scheider in 2022. It can be populated using extracted evidence from published scientific articles about determinants of a specific behavior choice. Once populated, it functions as a knowledge base of behavioral evidence that can be queried to inform or validate the structure of behavior models.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#BehaviorChoiceOption"/>
+        <Class abbreviatedIRI=":BehaviorChoiceOption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BehaviorDeterminant"/>
+        <Class abbreviatedIRI=":BehaviorDeterminant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BehaviorModerator"/>
+        <Class abbreviatedIRI=":BehaviorModerator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EvidenceInstance"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#IndividualProperty"/>
+        <Class abbreviatedIRI=":IndividualProperty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MetaAnalysis"/>
+        <Class abbreviatedIRI=":MetaAnalysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReviewStudy"/>
+        <Class abbreviatedIRI=":ReviewStudy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Study"/>
+        <Class abbreviatedIRI=":Study"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SystematicReviewStudy"/>
+        <Class abbreviatedIRI=":SystematicReviewStudy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#determinantStudiedIn"/>
+        <ObjectProperty abbreviatedIRI=":determinantStudiedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsConsistency"/>
+        <ObjectProperty abbreviatedIRI=":findsConsistency"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsCorrelation"/>
+        <ObjectProperty abbreviatedIRI=":findsCorrelation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsInconsistency"/>
+        <ObjectProperty abbreviatedIRI=":findsInconsistency"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsInsignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsInsignificance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#foundConsistentBy"/>
+        <ObjectProperty abbreviatedIRI=":foundConsistentBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#foundCorrelatedBy"/>
+        <ObjectProperty abbreviatedIRI=":foundCorrelatedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#foundInconsistentBy"/>
+        <ObjectProperty abbreviatedIRI=":foundInconsistentBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#foundInsignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":foundInsignificantBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#groupStudiedIn"/>
+        <ObjectProperty abbreviatedIRI=":groupStudiedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#moderatorIn"/>
+        <ObjectProperty abbreviatedIRI=":moderatorIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#regardsChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":regardsChoiceOption"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#regardsDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":regardsDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiedChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":studiedChoiceOption"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiedDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiedDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiesDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiesDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiesGroup"/>
+        <ObjectProperty abbreviatedIRI=":studiesGroup"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiesModerator"/>
+        <ObjectProperty abbreviatedIRI=":studiesModerator"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#EvidenceInstanceProperties"/>
+        <DataProperty abbreviatedIRI=":fullSentenceString"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#FullSentenceString"/>
+        <DataProperty abbreviatedIRI=":hasCitation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#HasCitation"/>
+        <DataProperty abbreviatedIRI=":hasJournal"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#HasJournal"/>
+        <DataProperty abbreviatedIRI=":hasStudyYear"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#HasStudyYear"/>
+        <DataProperty abbreviatedIRI=":hasTitle"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#HasTitle"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#SentenceNumber"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#StudyProperties"/>
+        <DataProperty abbreviatedIRI=":sentenceNumber"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#MetaAnalysis"/>
-        <Class IRI="#ReviewStudy"/>
+        <Class abbreviatedIRI=":MetaAnalysis"/>
+        <Class abbreviatedIRI=":ReviewStudy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ReviewStudy"/>
-        <Class IRI="#Study"/>
+        <Class abbreviatedIRI=":ReviewStudy"/>
+        <Class abbreviatedIRI=":Study"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SystematicReviewStudy"/>
-        <Class IRI="#ReviewStudy"/>
+        <Class abbreviatedIRI=":SystematicReviewStudy"/>
+        <Class abbreviatedIRI=":ReviewStudy"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
-        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
-        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#findsSignificance"/>
-        <ObjectProperty IRI="#findsCorrelation"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsCorrelation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#foundSignificantBy"/>
-        <ObjectProperty IRI="#foundCorrelatedBy"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":foundCorrelatedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
-        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
-        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#studiesDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiesDeterminant"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#determinantStudiedIn"/>
-        <ObjectProperty IRI="#studiesDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":determinantStudiedIn"/>
+        <ObjectProperty abbreviatedIRI=":studiesDeterminant"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsConsistency"/>
-        <ObjectProperty IRI="#foundConsistentBy"/>
+        <ObjectProperty abbreviatedIRI=":findsConsistency"/>
+        <ObjectProperty abbreviatedIRI=":foundConsistentBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsCorrelation"/>
-        <ObjectProperty IRI="#foundCorrelatedBy"/>
+        <ObjectProperty abbreviatedIRI=":findsCorrelation"/>
+        <ObjectProperty abbreviatedIRI=":foundCorrelatedBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsInconsistency"/>
-        <ObjectProperty IRI="#foundInconsistentBy"/>
+        <ObjectProperty abbreviatedIRI=":findsInconsistency"/>
+        <ObjectProperty abbreviatedIRI=":foundInconsistentBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsInsignificance"/>
-        <ObjectProperty IRI="#foundInsignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":findsInsignificance"/>
+        <ObjectProperty abbreviatedIRI=":foundInsignificantBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#findsSignificance"/>
-        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#groupStudiedIn"/>
-        <ObjectProperty IRI="#studiesGroup"/>
+        <ObjectProperty abbreviatedIRI=":groupStudiedIn"/>
+        <ObjectProperty abbreviatedIRI=":studiesGroup"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#moderatorIn"/>
-        <ObjectProperty IRI="#studiesModerator"/>
+        <ObjectProperty abbreviatedIRI=":moderatorIn"/>
+        <ObjectProperty abbreviatedIRI=":studiesModerator"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#regardsChoiceOption"/>
-        <ObjectProperty IRI="#studiedChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":regardsChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":studiedChoiceOption"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#regardsDeterminant"/>
-        <ObjectProperty IRI="#studiedDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":regardsDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiedDeterminant"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="#studiedChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":studiedChoiceOption"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinantStudiedIn"/>
-        <Class IRI="#BehaviorDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":determinantStudiedIn"/>
+        <Class abbreviatedIRI=":BehaviorDeterminant"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsConsistency"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsConsistency"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsCorrelation"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsCorrelation"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsInconsistency"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsInconsistency"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsInsignificance"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsInsignificance"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#findsSignificance"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#foundConsistentBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":foundConsistentBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#foundCorrelatedBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":foundCorrelatedBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#foundInconsistentBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":foundInconsistentBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#foundInsignificantBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":foundInsignificantBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#foundSignificantBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#groupStudiedIn"/>
-        <Class IRI="#IndividualProperty"/>
+        <ObjectProperty abbreviatedIRI=":groupStudiedIn"/>
+        <Class abbreviatedIRI=":IndividualProperty"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#moderatorIn"/>
-        <Class IRI="#BehaviorModerator"/>
+        <ObjectProperty abbreviatedIRI=":moderatorIn"/>
+        <Class abbreviatedIRI=":BehaviorModerator"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#regardsChoiceOption"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":regardsChoiceOption"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#regardsDeterminant"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":regardsDeterminant"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiedChoiceOption"/>
-        <Class IRI="#BehaviorChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":studiedChoiceOption"/>
+        <Class abbreviatedIRI=":BehaviorChoiceOption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiedDeterminant"/>
-        <Class IRI="#BehaviorDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiedDeterminant"/>
+        <Class abbreviatedIRI=":BehaviorDeterminant"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiesDeterminant"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":studiesDeterminant"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiesGroup"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":studiesGroup"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiesModerator"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":studiesModerator"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinantStudiedIn"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":determinantStudiedIn"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsConsistency"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsConsistency"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsCorrelation"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsCorrelation"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsInconsistency"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsInconsistency"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsInsignificance"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsInsignificance"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#findsSignificance"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foundConsistentBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":foundConsistentBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foundCorrelatedBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":foundCorrelatedBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foundInconsistentBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":foundInconsistentBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foundInsignificantBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":foundInsignificantBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foundSignificantBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#groupStudiedIn"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":groupStudiedIn"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#moderatorIn"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":moderatorIn"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
-        <Class IRI="#Study"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
+        <Class abbreviatedIRI=":Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#regardsChoiceOption"/>
-        <Class IRI="#BehaviorChoiceOption"/>
+        <ObjectProperty abbreviatedIRI=":regardsChoiceOption"/>
+        <Class abbreviatedIRI=":BehaviorChoiceOption"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#regardsDeterminant"/>
-        <Class IRI="#BehaviorDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":regardsDeterminant"/>
+        <Class abbreviatedIRI=":BehaviorDeterminant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiedChoiceOption"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":studiedChoiceOption"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiedDeterminant"/>
-        <Class IRI="#EvidenceInstance"/>
+        <ObjectProperty abbreviatedIRI=":studiedDeterminant"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiesDeterminant"/>
-        <Class IRI="#BehaviorDeterminant"/>
+        <ObjectProperty abbreviatedIRI=":studiesDeterminant"/>
+        <Class abbreviatedIRI=":BehaviorDeterminant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiesGroup"/>
-        <Class IRI="#IndividualProperty"/>
+        <ObjectProperty abbreviatedIRI=":studiesGroup"/>
+        <Class abbreviatedIRI=":IndividualProperty"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiesModerator"/>
-        <Class IRI="#BehaviorModerator"/>
+        <ObjectProperty abbreviatedIRI=":studiesModerator"/>
+        <Class abbreviatedIRI=":BehaviorModerator"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#findsInsignificance"/>
-        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsInsignificance"/>
+        <ObjectProperty abbreviatedIRI=":findsSignificance"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#findsNegativeAssociation"/>
-        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsNegativeAssociation"/>
+        <ObjectProperty abbreviatedIRI=":findsPositiveAssociation"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#foundInsignificantBy"/>
-        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":foundInsignificantBy"/>
+        <ObjectProperty abbreviatedIRI=":foundSignificantBy"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
-        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":negativeAssociationFoundBy"/>
+        <ObjectProperty abbreviatedIRI=":positiveAssociationFoundBy"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
-        <DataProperty IRI="#FullSentenceString"/>
-        <DataProperty IRI="#EvidenceInstanceProperties"/>
+        <DataProperty abbreviatedIRI=":fullSentenceString"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#HasCitation"/>
-        <DataProperty IRI="#StudyProperties"/>
+        <DataProperty abbreviatedIRI=":hasCitation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#HasJournal"/>
-        <DataProperty IRI="#StudyProperties"/>
+        <DataProperty abbreviatedIRI=":hasJournal"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#HasStudyYear"/>
-        <DataProperty IRI="#StudyProperties"/>
+        <DataProperty abbreviatedIRI=":hasStudyYear"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#HasTitle"/>
-        <DataProperty IRI="#StudyProperties"/>
+        <DataProperty abbreviatedIRI=":hasTitle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#SentenceNumber"/>
-        <DataProperty IRI="#EvidenceInstanceProperties"/>
+        <DataProperty abbreviatedIRI=":sentenceNumber"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#EvidenceInstanceProperties"/>
-        <Class IRI="#EvidenceInstance"/>
+        <DataProperty abbreviatedIRI=":fullSentenceString"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#HasCitation"/>
-        <Class IRI="#Study"/>
+        <DataProperty abbreviatedIRI=":hasCitation"/>
+        <Class abbreviatedIRI=":Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#HasJournal"/>
-        <Class IRI="#Study"/>
+        <DataProperty abbreviatedIRI=":hasJournal"/>
+        <Class abbreviatedIRI=":Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#HasStudyYear"/>
-        <Class IRI="#Study"/>
+        <DataProperty abbreviatedIRI=":hasStudyYear"/>
+        <Class abbreviatedIRI=":Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#HasTitle"/>
-        <Class IRI="#Study"/>
+        <DataProperty abbreviatedIRI=":hasTitle"/>
+        <Class abbreviatedIRI=":Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#StudyProperties"/>
-        <Class IRI="#Study"/>
+        <DataProperty abbreviatedIRI=":sentenceNumber"/>
+        <Class abbreviatedIRI=":EvidenceInstance"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#FullSentenceString"/>
+        <DataProperty abbreviatedIRI=":fullSentenceString"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#HasCitation"/>
+        <DataProperty abbreviatedIRI=":hasCitation"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#HasJournal"/>
+        <DataProperty abbreviatedIRI=":hasJournal"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#HasStudyYear"/>
+        <DataProperty abbreviatedIRI=":hasStudyYear"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#HasTitle"/>
+        <DataProperty abbreviatedIRI=":hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":sentenceNumber"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#BehaviorChoiceOption</IRI>
+        <AbbreviatedIRI>:BehaviorChoiceOption</AbbreviatedIRI>
         <Literal>Behavior Choice Options are kinds of activities from which an individual can choose for the specified behavioral choice. They are the values of the dependent variables in the explanatory studies from which knowledge is extracted. (e.g walking, biking for modal choice).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#BehaviorDeterminant</IRI>
+        <AbbreviatedIRI>:BehaviorDeterminant</AbbreviatedIRI>
         <Literal>Behavior Determinants are factors and constraints that influence a behavioral decision of an individual. These are the determinants or independent variables in the evidence provided. (e.g. pedestrian pathway width, gasoline price).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#BehaviorModerator</IRI>
+        <AbbreviatedIRI>:BehaviorModerator</AbbreviatedIRI>
         <Literal>BehaviorModerators are variables that moderate the relationship between a behavior determinant and behavior choice option. (e.g. household income as a moderator of the importance of gasoline prices for choosing the car as a mode of transport)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#EvidenceInstance</IRI>
+        <AbbreviatedIRI>:EvidenceInstance</AbbreviatedIRI>
         <Literal>EvidenceInstance is an instance in which a scientific article provided evidenc, which describes a statistical association between a particular behavior choice option and a behavior determinant using some study group or moderation effect.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#IndividualProperty</IRI>
+        <AbbreviatedIRI>:IndividualProperty</AbbreviatedIRI>
         <Literal>IndividualProperties are properties of the individual that define the Study Group, i.e. the specific population group or sample used in analysis. (e.g. elderly, females)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#MetaAnalysis</IRI>
+        <AbbreviatedIRI>:MetaAnalysis</AbbreviatedIRI>
         <Literal>MetaAnalysis are published scientific articles that conduct a meta analysis.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ReviewStudy</IRI>
+        <AbbreviatedIRI>:ReviewStudy</AbbreviatedIRI>
         <Literal>ReviewStudies are scientific articles that conduct a review of scientific evidence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Study</IRI>
+        <AbbreviatedIRI>:Study</AbbreviatedIRI>
         <Literal>Studies are published scientific articles, which is the source from which the evidence has been extracted.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SystematicReviewStudy</IRI>
+        <AbbreviatedIRI>:SystematicReviewStudy</AbbreviatedIRI>
         <Literal>SystematicReviewStudies are published scientific articles that conduct a systematic review.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#determinantStudiedIn</IRI>
+        <AbbreviatedIRI>:determinantStudiedIn</AbbreviatedIRI>
         <Literal>determinantStudiedIn links the behavior determinant that was analysed in a specific evidence instance directly to the study that analysed it. It is the inverse of studiesDeterminant.</Literal>
     </AnnotationAssertion>
 </Ontology>
