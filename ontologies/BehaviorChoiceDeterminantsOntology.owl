@@ -101,7 +101,7 @@
         <ObjectProperty IRI="#regardsDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#studiedDeterminant"/>
@@ -177,7 +177,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#studiesDeterminant"/>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#determinantStudiedIn"/>
@@ -221,14 +221,14 @@
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#regardsChoiceOption"/>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#regardsDeterminant"/>
         <ObjectProperty IRI="#studiedDeterminant"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#determinantStudiedIn"/>
@@ -307,7 +307,7 @@
         <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
         <Class IRI="#BehaviorChoiceOption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -403,7 +403,7 @@
         <Class IRI="#BehaviorDeterminant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#studiedChoiceOptions"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
         <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
