@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://tabeasonnenschein.github.io/ontologies/bcdo.html">
-    <Prefix name="" IRI="https://tabeasonnenschein.github.io/Ontologies/bcdo.html"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -17,541 +17,541 @@
         <Literal>The upperlevel ontology is the BehaviorChoiceDeterminantsOntology, developed by T. Sonnenschein, G. Ardine de Wit, N. R. den Braver, R. Vermeulen and S. Scheider in 2022. It can be populated using extracted evidence from published scientific articles about determinants of a specific behavior choice. Once populated, it functions as a knowledge base of behavioral evidence that can be queried to inform or validate the structure of behavior models.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorChoiceOption"/>
+        <Class IRI="#BehaviorChoiceOption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant"/>
+        <Class IRI="#BehaviorDeterminant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorModerator"/>
+        <Class IRI="#BehaviorModerator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <Class IRI="#EvidenceInstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#IndividualProperty"/>
+        <Class IRI="#IndividualProperty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#MetaAnalysis"/>
+        <Class IRI="#MetaAnalysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy"/>
+        <Class IRI="#ReviewStudy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <Class IRI="#Study"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#SystematicReviewStudy"/>
+        <Class IRI="#SystematicReviewStudy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn"/>
+        <ObjectProperty IRI="#determinantStudiedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsConsistency"/>
+        <ObjectProperty IRI="#findsConsistency"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation"/>
+        <ObjectProperty IRI="#findsCorrelation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInconsistency"/>
+        <ObjectProperty IRI="#findsInconsistency"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance"/>
+        <ObjectProperty IRI="#findsInsignificance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
+        <ObjectProperty IRI="#findsSignificance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundConsistentBy"/>
+        <ObjectProperty IRI="#foundConsistentBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy"/>
+        <ObjectProperty IRI="#foundCorrelatedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInconsistentBy"/>
+        <ObjectProperty IRI="#foundInconsistentBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy"/>
+        <ObjectProperty IRI="#foundInsignificantBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#groupStudiedIn"/>
+        <ObjectProperty IRI="#groupStudiedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#moderatorIn"/>
+        <ObjectProperty IRI="#moderatorIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsChoiceOption"/>
+        <ObjectProperty IRI="#regardsChoiceOption"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsDeterminant"/>
+        <ObjectProperty IRI="#regardsDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedDeterminant"/>
+        <ObjectProperty IRI="#studiedDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant"/>
+        <ObjectProperty IRI="#studiesDeterminant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesGroup"/>
+        <ObjectProperty IRI="#studiesGroup"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesModerator"/>
+        <ObjectProperty IRI="#studiesModerator"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#fullSentenceString"/>
+        <DataProperty IRI="#fullSentenceString"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasCitation"/>
+        <DataProperty IRI="#hasCitation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasJournal"/>
+        <DataProperty IRI="#hasJournal"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasStudyYear"/>
+        <DataProperty IRI="#hasStudyYear"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasTitle"/>
+        <DataProperty IRI="#hasTitle"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#sentenceNumber"/>
+        <DataProperty IRI="#sentenceNumber"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#MetaAnalysis"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy"/>
+        <Class IRI="#MetaAnalysis"/>
+        <Class IRI="#ReviewStudy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <Class IRI="#ReviewStudy"/>
+        <Class IRI="#Study"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#SystematicReviewStudy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy"/>
+        <Class IRI="#SystematicReviewStudy"/>
+        <Class IRI="#ReviewStudy"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <ObjectProperty IRI="#findsSignificance"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <ObjectProperty IRI="#findsSignificance"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation"/>
+        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty IRI="#findsCorrelation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
+        <ObjectProperty IRI="#foundCorrelatedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant"/>
+        <ObjectProperty IRI="#studiesDeterminant"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant"/>
+        <ObjectProperty IRI="#determinantStudiedIn"/>
+        <ObjectProperty IRI="#studiesDeterminant"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsConsistency"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundConsistentBy"/>
+        <ObjectProperty IRI="#findsConsistency"/>
+        <ObjectProperty IRI="#foundConsistentBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy"/>
+        <ObjectProperty IRI="#findsCorrelation"/>
+        <ObjectProperty IRI="#foundCorrelatedBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInconsistency"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInconsistentBy"/>
+        <ObjectProperty IRI="#findsInconsistency"/>
+        <ObjectProperty IRI="#foundInconsistentBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy"/>
+        <ObjectProperty IRI="#findsInsignificance"/>
+        <ObjectProperty IRI="#foundInsignificantBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
+        <ObjectProperty IRI="#findsSignificance"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#groupStudiedIn"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesGroup"/>
+        <ObjectProperty IRI="#groupStudiedIn"/>
+        <ObjectProperty IRI="#studiesGroup"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#moderatorIn"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesModerator"/>
+        <ObjectProperty IRI="#moderatorIn"/>
+        <ObjectProperty IRI="#studiesModerator"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsChoiceOption"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption"/>
+        <ObjectProperty IRI="#regardsChoiceOption"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsDeterminant"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedDeterminant"/>
+        <ObjectProperty IRI="#regardsDeterminant"/>
+        <ObjectProperty IRI="#studiedDeterminant"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant"/>
+        <ObjectProperty IRI="#determinantStudiedIn"/>
+        <Class IRI="#BehaviorDeterminant"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsConsistency"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsConsistency"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsCorrelation"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInconsistency"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsInconsistency"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsInsignificance"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#findsSignificance"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundConsistentBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#foundConsistentBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#foundCorrelatedBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInconsistentBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#foundInconsistentBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#foundInsignificantBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#groupStudiedIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#IndividualProperty"/>
+        <ObjectProperty IRI="#groupStudiedIn"/>
+        <Class IRI="#IndividualProperty"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#moderatorIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorModerator"/>
+        <ObjectProperty IRI="#moderatorIn"/>
+        <Class IRI="#BehaviorModerator"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsChoiceOption"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#regardsChoiceOption"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#regardsDeterminant"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorChoiceOption"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
+        <Class IRI="#BehaviorChoiceOption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant"/>
+        <ObjectProperty IRI="#studiedDeterminant"/>
+        <Class IRI="#BehaviorDeterminant"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#studiesDeterminant"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesGroup"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#studiesGroup"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesModerator"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#studiesModerator"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#determinantStudiedIn"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsConsistency"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsConsistency"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsCorrelation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsCorrelation"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInconsistency"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsInconsistency"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsInsignificance"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#findsSignificance"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundConsistentBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#foundConsistentBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundCorrelatedBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#foundCorrelatedBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInconsistentBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#foundInconsistentBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#foundInsignificantBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#groupStudiedIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#groupStudiedIn"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#moderatorIn"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#moderatorIn"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
+        <Class IRI="#Study"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsChoiceOption"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorChoiceOption"/>
+        <ObjectProperty IRI="#regardsChoiceOption"/>
+        <Class IRI="#BehaviorChoiceOption"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#regardsDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant"/>
+        <ObjectProperty IRI="#regardsDeterminant"/>
+        <Class IRI="#BehaviorDeterminant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedChoiceOption"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#studiedChoiceOption"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiedDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <ObjectProperty IRI="#studiedDeterminant"/>
+        <Class IRI="#EvidenceInstance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesDeterminant"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant"/>
+        <ObjectProperty IRI="#studiesDeterminant"/>
+        <Class IRI="#BehaviorDeterminant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesGroup"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#IndividualProperty"/>
+        <ObjectProperty IRI="#studiesGroup"/>
+        <Class IRI="#IndividualProperty"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#studiesModerator"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorModerator"/>
+        <ObjectProperty IRI="#studiesModerator"/>
+        <Class IRI="#BehaviorModerator"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsInsignificance"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsSignificance"/>
+        <ObjectProperty IRI="#findsInsignificance"/>
+        <ObjectProperty IRI="#findsSignificance"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsNegativeAssociation"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#findsPositiveAssociation"/>
+        <ObjectProperty IRI="#findsNegativeAssociation"/>
+        <ObjectProperty IRI="#findsPositiveAssociation"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundInsignificantBy"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#foundSignificantBy"/>
+        <ObjectProperty IRI="#foundInsignificantBy"/>
+        <ObjectProperty IRI="#foundSignificantBy"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#negativeAssociationFoundBy"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#positiveAssociationFoundBy"/>
+        <ObjectProperty IRI="#negativeAssociationFoundBy"/>
+        <ObjectProperty IRI="#positiveAssociationFoundBy"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#fullSentenceString"/>
+        <DataProperty IRI="#fullSentenceString"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasCitation"/>
+        <DataProperty IRI="#hasCitation"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasJournal"/>
+        <DataProperty IRI="#hasJournal"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasStudyYear"/>
+        <DataProperty IRI="#hasStudyYear"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasTitle"/>
+        <DataProperty IRI="#hasTitle"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#sentenceNumber"/>
+        <DataProperty IRI="#sentenceNumber"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#fullSentenceString"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <DataProperty IRI="#fullSentenceString"/>
+        <Class IRI="#EvidenceInstance"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasCitation"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <DataProperty IRI="#hasCitation"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasJournal"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <DataProperty IRI="#hasJournal"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasStudyYear"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <DataProperty IRI="#hasStudyYear"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasTitle"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study"/>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#sentenceNumber"/>
-        <Class IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance"/>
+        <DataProperty IRI="#sentenceNumber"/>
+        <Class IRI="#EvidenceInstance"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#fullSentenceString"/>
+        <DataProperty IRI="#fullSentenceString"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasCitation"/>
+        <DataProperty IRI="#hasCitation"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasJournal"/>
+        <DataProperty IRI="#hasJournal"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasStudyYear"/>
+        <DataProperty IRI="#hasStudyYear"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#hasTitle"/>
+        <DataProperty IRI="#hasTitle"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#sentenceNumber"/>
+        <DataProperty IRI="#sentenceNumber"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorChoiceOption</IRI>
+        <IRI>#BehaviorChoiceOption</IRI>
         <Literal>Behavior Choice Options are kinds of activities from which an individual can choose for the specified behavioral choice. They are the values of the dependent variables in the explanatory studies from which knowledge is extracted. (e.g walking, biking for modal choice).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorDeterminant</IRI>
+        <IRI>#BehaviorDeterminant</IRI>
         <Literal>Behavior Determinants are factors and constraints that influence a behavioral decision of an individual. These are the determinants or independent variables in the evidence provided. (e.g. pedestrian pathway width, gasoline price).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#BehaviorModerator</IRI>
+        <IRI>#BehaviorModerator</IRI>
         <Literal>BehaviorModerators are variables that moderate the relationship between a behavior determinant and behavior choice option. (e.g. household income as a moderator of the importance of gasoline prices for choosing the car as a mode of transport)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#EvidenceInstance</IRI>
+        <IRI>#EvidenceInstance</IRI>
         <Literal>EvidenceInstance is an instance in which a scientific article provided evidenc, which describes a statistical association between a particular behavior choice option and a behavior determinant using some study group or moderation effect.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#IndividualProperty</IRI>
+        <IRI>#IndividualProperty</IRI>
         <Literal>IndividualProperties are properties of the individual that define the Study Group, i.e. the specific population group or sample used in analysis. (e.g. elderly, females)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#MetaAnalysis</IRI>
+        <IRI>#MetaAnalysis</IRI>
         <Literal>MetaAnalysis are published scientific articles that conduct a meta analysis.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#ReviewStudy</IRI>
+        <IRI>#ReviewStudy</IRI>
         <Literal>ReviewStudies are scientific articles that conduct a review of scientific evidence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#Study</IRI>
+        <IRI>#Study</IRI>
         <Literal>Studies are published scientific articles, which is the source from which the evidence has been extracted.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#SystematicReviewStudy</IRI>
+        <IRI>#SystematicReviewStudy</IRI>
         <Literal>SystematicReviewStudies are published scientific articles that conduct a systematic review.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tabea/ontologies/2021/11/behavioural_model#determinantStudiedIn</IRI>
+        <IRI>#determinantStudiedIn</IRI>
         <Literal>determinantStudiedIn links the behavior determinant that was analysed in a specific evidence instance directly to the study that analysed it. It is the inverse of studiesDeterminant.</Literal>
     </AnnotationAssertion>
 </Ontology>
