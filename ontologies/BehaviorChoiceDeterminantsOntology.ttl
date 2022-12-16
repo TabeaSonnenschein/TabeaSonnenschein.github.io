@@ -13,172 +13,172 @@
 #    Object Properties
 #################################################################
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsConsistency
-:FindsConsistency rdf:type owl:ObjectProperty ;
-                  owl:inverseOf :FoundConsistentBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#determinantStudiedIn
+:determinantStudiedIn rdf:type owl:ObjectProperty ;
+                      owl:inverseOf :studiesDeterminant ;
+                      rdfs:domain :BehaviorDeterminant ;
+                      rdfs:range :Study ;
+                      rdfs:comment "determinantStudiedIn links the behavior determinant that was analysed in a specific evidence instance directly to the study that analysed it. It is the inverse of studiesDeterminant." .
+
+
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsConsistency
+:findsConsistency rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :foundConsistentBy ;
                   rdfs:domain :Study ;
                   rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsCorrelation
-:FindsCorrelation rdf:type owl:ObjectProperty ;
-                  owl:inverseOf :FoundCorrelatedBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsCorrelation
+:findsCorrelation rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :foundCorrelatedBy ;
                   rdfs:domain :Study ;
                   rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsInconsistency
-:FindsInconsistency rdf:type owl:ObjectProperty ;
-                    owl:inverseOf :FoundInconsistentBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsInconsistency
+:findsInconsistency rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :foundInconsistentBy ;
                     rdfs:domain :Study ;
                     rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsInsignificance
-:FindsInsignificance rdf:type owl:ObjectProperty ;
-                     owl:inverseOf :FoundInsignificantBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsInsignificance
+:findsInsignificance rdf:type owl:ObjectProperty ;
+                     owl:inverseOf :foundInsignificantBy ;
                      rdfs:domain :Study ;
                      rdfs:range :EvidenceInstance ;
-                     owl:propertyDisjointWith :FindsSignificance .
+                     owl:propertyDisjointWith :findsSignificance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsNegativeAssociation
-:FindsNegativeAssociation rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf :FindsSignificance ;
-                          owl:inverseOf :NegativeAssociationFoundBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsNegativeAssociation
+:findsNegativeAssociation rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :findsSignificance ;
+                          owl:inverseOf :negativeAssociationFoundBy ;
                           rdfs:domain :Study ;
                           rdfs:range :EvidenceInstance ;
-                          owl:propertyDisjointWith :FindsPositiveAssociation .
+                          owl:propertyDisjointWith :findsPositiveAssociation .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsPositiveAssociation
-:FindsPositiveAssociation rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf :FindsSignificance ;
-                          owl:inverseOf :PositiveAssociationFoundBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsPositiveAssociation
+:findsPositiveAssociation rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :findsSignificance ;
+                          owl:inverseOf :positiveAssociationFoundBy ;
                           rdfs:domain :Study ;
                           rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FindsSignificance
-:FindsSignificance rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf :FindsCorrelation ;
-                   owl:inverseOf :FoundSignificantBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#findsSignificance
+:findsSignificance rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :findsCorrelation ;
+                   owl:inverseOf :foundSignificantBy ;
                    rdfs:domain :Study ;
                    rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FoundConsistentBy
-:FoundConsistentBy rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundConsistentBy
+:foundConsistentBy rdf:type owl:ObjectProperty ;
                    rdfs:domain :EvidenceInstance ;
                    rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FoundCorrelatedBy
-:FoundCorrelatedBy rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundCorrelatedBy
+:foundCorrelatedBy rdf:type owl:ObjectProperty ;
                    rdfs:domain :EvidenceInstance ;
                    rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FoundInconsistentBy
-:FoundInconsistentBy rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundInconsistentBy
+:foundInconsistentBy rdf:type owl:ObjectProperty ;
                      rdfs:domain :EvidenceInstance ;
                      rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FoundInsignificantBy
-:FoundInsignificantBy rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundInsignificantBy
+:foundInsignificantBy rdf:type owl:ObjectProperty ;
                       rdfs:domain :EvidenceInstance ;
                       rdfs:range :Study ;
-                      owl:propertyDisjointWith :FoundSignificantBy .
+                      owl:propertyDisjointWith :foundSignificantBy .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#FoundSignificantBy
-:FoundSignificantBy rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf :FoundCorrelatedBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#foundSignificantBy
+:foundSignificantBy rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :foundCorrelatedBy ;
                     rdfs:domain :EvidenceInstance ;
                     rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#GroupStudiedIn
-:GroupStudiedIn rdf:type owl:ObjectProperty ;
-                owl:inverseOf :StudiesGroup ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#groupStudiedIn
+:groupStudiedIn rdf:type owl:ObjectProperty ;
+                owl:inverseOf :studiesGroup ;
                 rdfs:domain :IndividualProperty ;
                 rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#ModeratorIn
-:ModeratorIn rdf:type owl:ObjectProperty ;
-             owl:inverseOf :StudiesModerator ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#moderatorIn
+:moderatorIn rdf:type owl:ObjectProperty ;
+             owl:inverseOf :studiesModerator ;
              rdfs:domain :BehaviorModerator ;
              rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#NegativeAssociationFoundBy
-:NegativeAssociationFoundBy rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf :FoundSignificantBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#negativeAssociationFoundBy
+:negativeAssociationFoundBy rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :foundSignificantBy ;
                             rdfs:domain :EvidenceInstance ;
                             rdfs:range :Study ;
-                            owl:propertyDisjointWith :PositiveAssociationFoundBy .
+                            owl:propertyDisjointWith :positiveAssociationFoundBy .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#PositiveAssociationFoundBy
-:PositiveAssociationFoundBy rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf :FoundSignificantBy ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#positiveAssociationFoundBy
+:positiveAssociationFoundBy rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :foundSignificantBy ;
                             rdfs:domain :EvidenceInstance ;
                             rdfs:range :Study .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#RegardsChoiceOption
-:RegardsChoiceOption rdf:type owl:ObjectProperty ;
-                     owl:inverseOf :StudiedChoiceOptions ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#regardsChoiceOption
+:regardsChoiceOption rdf:type owl:ObjectProperty ;
+                     owl:inverseOf :studiedChoiceOptions ;
                      rdfs:domain :EvidenceInstance ;
                      rdfs:range :BehaviorChoiceOption .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#RegardsDeterminant
-:RegardsDeterminant rdf:type owl:ObjectProperty ;
-                    owl:inverseOf :StudiedDeterminant ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#regardsDeterminant
+:regardsDeterminant rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :studiedDeterminant ;
                     rdfs:domain :EvidenceInstance ;
                     rdfs:range :BehaviorDeterminant .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudiedChoiceOptions
-:StudiedChoiceOptions rdf:type owl:ObjectProperty ,
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedChoiceOptions
+:studiedChoiceOptions rdf:type owl:ObjectProperty ,
                                owl:TransitiveProperty ;
                       rdfs:domain :BehaviorChoiceOption ;
                       rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudiedDeterminant
-:StudiedDeterminant rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiedDeterminant
+:studiedDeterminant rdf:type owl:ObjectProperty ;
                     rdfs:domain :BehaviorDeterminant ;
                     rdfs:range :EvidenceInstance .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudiesDeterminant
-:StudiesDeterminant rdf:type owl:ObjectProperty ;
-                    owl:inverseOf :determinantStudiedIn ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesDeterminant
+:studiesDeterminant rdf:type owl:ObjectProperty ;
                     rdfs:domain :Study ;
                     rdfs:range :BehaviorDeterminant .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudiesGroup
-:StudiesGroup rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesGroup
+:studiesGroup rdf:type owl:ObjectProperty ;
               rdfs:domain :EvidenceInstance ;
               rdfs:range :IndividualProperty .
 
 
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#StudiesModerator
-:StudiesModerator rdf:type owl:ObjectProperty ;
+###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#studiesModerator
+:studiesModerator rdf:type owl:ObjectProperty ;
                   rdfs:domain :EvidenceInstance ;
                   rdfs:range :BehaviorModerator .
-
-
-###  https://tabeasonnenschein.github.io/Ontologies/bcdo.html#determinantStudiedIn
-:determinantStudiedIn rdf:type owl:ObjectProperty ;
-                      rdfs:domain :BehaviorDeterminant ;
-                      rdfs:range :Study ;
-                      rdfs:comment "DeterminantStudiedIn links the behavior determinant that was analysed in a specific evidence instance directly to the study that analysed it. It is the inverse of StudiesDeterminant." .
 
 
 #################################################################
