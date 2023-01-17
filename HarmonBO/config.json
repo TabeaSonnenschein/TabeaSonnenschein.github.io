@@ -1,0 +1,55 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Tabea Sonnenschein"
+  },
+  "text": {
+    "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
+    "intro": "Play with the Graph by clickling on Nodes.",
+    "title": "Evidence Graph on Modal Choice and Behavior Determinants"
+  },
+  "legend": {
+    "edgeLabel": "Observed Statistical Relationship (the ticker the more evidence)",
+    "colorLabel": "Green \u003d Significant; Red \u003d Insignificant",
+    "nodeLabel": "Outer Circle \u003d Behavior Determinants; Inner Circle \u003d Behavior Choice Options"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Type",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "activeFontStyle": "bold",
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "labelFont": "Congenial",
+      "labelSize": "proportional",
+      "labelSizeRatio": 6,
+      "labelThreshold": 0
+    },
+    "graphProperties": {
+      "maxEdgeSize": 20,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
