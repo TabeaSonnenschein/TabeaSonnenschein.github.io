@@ -8,7 +8,7 @@
     "text": "Tabea Sonnenschein"
   },
   "text": {
-    "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. \nThe outer circle encompasses all behavior determinants, while the inner circle contains the harmonised behavior choice option variables (variable names have been harmonised).\nYou can interact and play with the graph. ",
+    "more": "The graph is a simplified version of the knowledge graph resulting from the Sonnenschein et al (2023) automated knowledge extraction method applied to meta-analyses and systematic reviews of modal choice determinants. The left column lists the unharmonised behavior choice option names related to active travel, while the center column encompasses all harmonised behavior determinant variables extracted in relation to active travel. The right column lists the harmonised variable names for studied groups for which evidence was extracted. You can interact and play with the graph.",
     "intro": "Play with the Graph by clickling on Nodes.",
     "title": "Evidence Graph on Active Travel Behavior Determinants and Studygroups"
   },
